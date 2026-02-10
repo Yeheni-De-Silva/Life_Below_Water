@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--title page will appear in the browser title bar-->
+        <title>Volunteer Programs</title>
+        <meta charset="UTF-8"><!--defines character encoding-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/Global.css"><!--External css files-->
+        <link rel="stylesheet" href="../css/volunteer.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="home.html"><img src="../images/logo.png" alt="Website logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="../html/volunteer.html">Volunteer</a></li>
+                    <li><a href="table.html">Table</a></li>
+                    <li><a href="profile.html">User profile</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><a href="sitemap.html">Sitemap</a></li>
+                    <li><a href="team.html">Team</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger"><i class="fa-solid fa-bars"></i></button>
+            <button class="xmark"><i class="fa-solid fa-xmark"></i></button>
+        </header>
+        <!--header section with page title and the drop down filter-->
+        <div class="Yheni-titlepage">
+                <h1>Volunteer Programs</h1>
+                <div class="Yeheni-dropdown">
+                    <select name="filter" id="filter"><!--using select to filter an option-->
+                        <option>Sorted by</option>
+                        <option>Most popular</option>
+                        <option>Less popular</option>
+                    </select>
+                </div>
+        </div>
+        <!--scrollable section of displaying volunteer info cards-->
+        <section class="Yeheni-scrollable-info"><!--different card names for each card-->
+            <div class="Yeheni-card">
+                <h2>Beach Cleanup</h2>
+                <img src="../images/beach_cleanup2.jpg" alt="Beach cleanup program">
+                <p>Join our Beach Cleanup program to help protect<br> marine life and preserve the beauty of our coastlines,<br> by removing trash and debris from beaches, contributing to environmental conservation and raising awareness about the importance of clean coastlines.</p>
+                <button class="Yeheni-info-button">Learn More</button>
+                <button class="Yeheni-info-button">Apply</button>
+            </div>
+            <div class="Yeheni-card">
+                <h2>Sea Turtle Hatchery</h2>
+                <img src="../images/turtles2.jpg" alt="Sea Turtle Hatchery program">
+                <p>Assist in monitoring nests and ensuring the safe hatching of sea turtles, contributing to their survival and learning about their life cycle.</p>
+                <button class="Yeheni-info-button">Learn More</button>
+                <button class="Yeheni-info-button">Apply</button>
+            </div>
+            <div class="Yeheni-card">
+                <h2>Ocean Education</h2>
+                <img src="../images/ocean_edu.jpeg" alt="Ocean Education">
+                <p>Join us to learn about marine conservation through workshops and activities, inspiring a love for the ocean and promoting sustainable practices.</p>
+                <button class="Yeheni-info-button">Learn More</button>
+                <button class="Yeheni-info-button">Apply</button>
+            </div>
+            <div class="Yeheni-card">
+                <h2>Coral Restoration</h2>
+                <img src="../images/coral_3.jpg" alt="Coral Restoration">
+                <p>Participate in planting coral nurseries and monitoring reef health to restore damaged coral reefs and support marine biodiversity.</p>
+                <button class="Yeheni-info-button">Learn More</button>
+                <button class="Yeheni-info-button">Apply</button>
+            </div>
+            <div class="Yeheni-card">
+                <h2>Sustainable Fishery Initiatives</h2>
+                <img src="../images/fishery.jpg" alt="Sustainable Fishery inishiative program">
+                <p>Join our sustainable fishery program to make an impact of over fishing and learn suastainability techniques while fishing.</p>
+                <button class="Yeheni-info-button">Learn More</button>
+                <button class="Yeheni-info-button">Apply</button>
+            </div>
+        </section>
+        <section class="Yeheni-table-section">
+            <h2>Volunteer Program Details</h2>
+            <table class="Yeheni-table">
+                    <tr>
+                        <th>Program Name</th>
+                        <th>Location</th>
+                        <th>Duration</th>
+                        <th>Impact Score</th>
+                    </tr>
+                    <tr>
+                        <td>Beach Cleanup</td>
+                        <td>California, USA</td>
+                        <td>2 Weeks</td>
+                        <td>&bigstar;&bigstar;&bigstar;&bigstar;</td>
+                    </tr>
+                    <tr>
+                        <td>Sea Turtle Hatchery</td>
+                        <td>Sri Lanka</td>
+                        <td>3 Weeks</td>
+                        <td>&bigstar;&bigstar;&bigstar;</td>
+                    </tr>
+                    <tr>
+                        <td>Ocean Education</td>
+                        <td>German</td>
+                        <td>4 Months</td>
+                        <td>&bigstar;&bigstar;&bigstar;</td>
+                    </tr>
+                    <tr>
+                        <td>Coral Restoration</td>
+                        <td>Great Barrier Reef, Australia</td>
+                        <td>1 Month</td>
+                        <td>&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;</td>
+                    </tr>
+                    <tr>
+                        <td>Sustainable Fishery Initiatives</td>
+                        <td>Norway</td>
+                        <td>2 Months</td>
+                        <td>&bigstar;&bigstar;</td>
+                    </tr>
+            </table>
+        </section>
+
+        <section class="Yeheni-ratings-reviews"><!--display reviews and ratings--> 
+            <h2>Overall Rating: 9.4/10 Exceptional</h2>
+            <p class="Yeheni-review">Total Reviews: 500 reviews</p>
+        </section>
+        <section>
+            <div class="Yeheni-review-card"><!--review cards using user feedbacks-->
+                <h2>Excellent!</h2>
+                <p>It was an eye opening program.I learnt a lot through the program.</p>
+                <a href="#">see more</a>&nbsp;
+                <span>Gilbert.G<br>
+                    Jan 12,2025
+                </span>
+            </div>
+            <div class="Yeheni-review-card"><!--review cards using user feedbacks-->
+                <h2>Excellent!</h2>
+                <p>It was an insightful program that provided me with valuable knowledge and learning experiences.Looking forward to join other future programs.</p>
+                <a href="#">see more</a>&nbsp;
+                <span>Reacheal.C<br>
+                    Sep 3,2023
+                </span>
+            </div>
+        </section>
+        <!--form for user to submit their feedbacks-->
+        <section class="Yeheni-feedback-form">
+            <h2>Send us your review</h2>
+            <div class="Yeheni-rating-input">
+                <!--star rating-->
+                <p class="Yeheni-star">&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;</p>
+                <!--emoji-->
+            </div>
+            <label id="Yeheni-suggestion">Got suggestions?We'd love to hear them(Optional)</label><br><!--<label for="Yeheni-suggestion">-->
+                <textarea class="Y_text" placeholder="Write your review here..."></textarea><br>
+            <button class="Yeheni-Submit-button">Submit Feedback</button><!--button to submit or cancel feedback-->
+            <button class="Yeheni-Cancel-button">Cancel</button>
+        </section>
+        <!--setting footer-->
+    <footer>
+        <div class="person devider">
+            <a href="../html/pageEditor_ST1.html" target="_blank">
+                <h2>YEHENI</h2>
+                <h2>DE SILVA</h2>
+            </a>
+        </div>
+        <div class="person devider">
+            <a href="pageEditor_ST2.html" target="_blank">
+                <h2>First Name</h2>
+                <h2>Last Name</h2>
+            </a>
+        </div>
+        <div class="person devider">
+            <a href="pageEditor_ST3.html" target="_blank">
+                <h2>First Name</h2>
+                <h2>Last Name</h2>
+            </a>
+        </div>
+        <div class="person devider">
+            <a href="pageEditor_ST4.html" target="_blank">
+                <h2>First Name</h2>
+                <h2>Last Name</h2>
+            </a>
+        </div>
+        <br><br>
+        <div class="copyright">
+            <p>Copyright &copy; 2025</p>
+        </div>
+    </footer>
+    <script>
+        hb = document.querySelector('.hamburger');
+        xmark = document.querySelector('.xmark');
+        nav = document.querySelector('nav'); // Selecting nav correctly
+        hb.onclick = function(){
+            hb.style.display = 'none';
+            xmark.style.display = 'block';
+            nav.classList.toggle('navactive');
+        }
+        xmark.onclick = function(){
+            hb.style.display = 'block';
+            xmark.style.display = 'none';
+            nav.classList.remove('navactive');
+        }
+    </script> 
+    </body>
+</html>
